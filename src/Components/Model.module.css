@@ -1,0 +1,30 @@
+.vglasses__model {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  position: relative;
+}
+
+.vglasses__model img {
+  position: absolute;
+  top: 26%;
+  left: 33%;
+  width: 180px;
+  height: 45px;
+  opacity: 0.9;
+}
+
+.vlasses__model__info {
+  background-color: #232021;
+  color: #fff;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 119px;
+  width: 55.8%;
+}
+.vlasses__model__info p {
+  font-size: 13px;
+  margin-bottom: 5px;
+}

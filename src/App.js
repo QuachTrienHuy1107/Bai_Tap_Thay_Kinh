@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import BaiTapPropsState from "./Components/BaiTapPropsState";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img src="./img/background.jpg" />
+      <div className="App__overlay">
+        <h1 className="py-3 mb-5 text-center title">TRY GLASSES APP ONLINE</h1>
+        <BaiTapPropsState />
+      </div>
     </div>
   );
 }
